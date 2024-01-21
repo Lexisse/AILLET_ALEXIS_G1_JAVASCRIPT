@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+    <link rel="stylesheet" href="CSS/fusion.css"> <!--Le fichier s'appelle fusion parce que j'avais plusieurs css que j'ai ensuite fusionné en un seul. -->
+    <title>Acceuil - Les dinosaures</title>
+</head>
+<body>
+    <header>
+        <div class="banderolle">
+            <h1>Dino facts</h1>
+        </div>
+        <nav class="banderolle">
+            <p class="haut">Accueil</p>
+            <a class="haut" href="funfact.html">Fun facts</a>
+            <a class="haut" href="contact.html">Contactez-nous</a>
+            <a class="haut" href="inscri.html">S'inscrire</a>
+        </nav>
+    </header>
+    <main>
+        <div class="bodypage">
+            <div class = "swiper mon-slider">
+                <div class = "swiper-wrapper">
+                    <div class = "swiper-slide slide-1">
+                        <img src="Images/Slide1.jpg" alt="" id="slide1">
+                    </div>
+                    <div class = "swiper-slide slide-2">
+                        <img src="Images/Slide2.jpg" alt="" id="slide2">
+                    </div>
+                    <div class = "swiper-slide slide-3">
+                        <img src="Images/Slide3.2.webp" alt="" id="slide3">
+                    </div>
+                </div>
+                <div class = "swiper-button-next"></div>
+                <div class = "swiper-button-prev"></div>
+                <div class = "swiper-pagination"></div>
+            </div>
+            <br><br>
+            <h2>Sur ce site, vous apprendrez de nombreuses <br>anecdotes amusantes à propos des dinosaures !</h2>
+            <div class="corpsSite">
+                <p class="dinotext1">Sur des dinosaures que <br> tout le monde connaît, <br> tel que le T-rex...</p>
+                <img src="Images/t-rex1.jpg" alt="Un tyrannosaurus-rex, de loin le dinosaure le plus connu !" id="trex1">
+            </div>
+            <div class="corpsSite">
+                <img src="Images/carcha.jpg" alt="Un carcharodontosaurus, dinosaure assez peu connu mais plus grand que le T-rex !" id="carcha">
+                <p class="dinotext1">Comme sur des dinosaures <br> plus obscurs, comme <br>le Carcharodontosaurus !</p>
+            </div>
+            <br> 
+            <h2 id="remonte">Remontez cliquer sur fun facts pour en savoir plus !</h2>
+            <br><br>
+        </div>
+    </main>
+    <footer>
+        <div class="downpage">
+            <br>
+            <h6>Les images présentées sur cette page, ainsi que toutes les pages appartenant à ce site, appartiennent à leur propriétaire légaux, que nous ne prétendons pas être.
+            <br>En cas de demande dudit propriétaire, l'image sera supprimée du site conformément aux lois par rapport aux droits d'auteur.</h6>
+            <h6>Il est possible que, et ce malgré nos nombreuses vérifications, ce site présente des informations erronées ou devenues obsolètes au vu des nouvelles découvertes.<br> Nous comptons sur votre compréhension, ainsi que sur vos retours à ce sujet.</h6>
+            <h6>En cas de réclamations, merci de vous diriger vers la page "Contactez-nous".</h6>
+            <h6>Dino Facts™ - Website by an IIM student</h6>
+            <h4 id="darkMode">Passer en dark mode</h4>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="Javascript/script.js"></script>
+</body>
+</html>

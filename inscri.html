@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/fusion.css">
+    <title>Document</title>
+</head>
+<body id="inscrip">
+    <header>
+        <div class="banderolle">
+            <h1>Dino facts</h1>
+        </div>
+        <nav class="banderolle">
+            <a class="haut" href="index.html">Accueil</a>
+            <a class="haut" href="funfact.html">Fun facts</a>
+            <a class="haut" href="contact.html">Contactez-nous</a>
+            <p class="haut">S'inscrire</p>
+        </nav>
+    </header>
+    <main>
+        <div id="inscripage" class="inscri">
+            <br>
+            <div class="message-error">
+                <ul> </ul>
+            </div>
+            <div class="message-success">
+                Formulaire envoyé !
+            </div>
+            <br>
+            <h2>Inscrivez-vous !</h2>
+            <form action="" method="POST" enctype="multipart/form-data">
+                <div>
+                    <label for="pseudo">Pseudo</label>
+                    <input type="text" name="pseudo" id="pseudo">
+                </div>
+                <div>
+                    <label for="emailA">email</label>
+                    <input id="emailA" name="emailA" type="email">
+                </div>
+                <div>
+                    <label for="password">Mot de passe</label>
+                    <input type="password" name="password" id="password">
+                </div>
+                <div>
+                    <label for="password2">Entrer à nouveau le mot de passe</label>
+                    <input type="password2" name="password2" id="password2">
+                </div>
+                <button type="submit"> S'inscrire</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="downpage">
+            <br>
+            <h6>Les images présentées sur cette page, ainsi que toutes les pages appartenant à ce site, appartiennent à leur propriétaire légaux, que nous ne prétendons pas être.
+            <br>En cas de demande dudit propriétaire, l'image sera supprimée du site conformément aux lois par rapport aux droits d'auteur.</h6>
+            <h6>Il est possible que, et ce malgré nos nombreuses vérifications, ce site présente des informations erronées ou devenues obsolètes au vu des nouvelles découvertes.<br> Nous comptons sur votre compréhension, ainsi que sur vos retours à ce sujet.</h6>
+            <h6>En cas de réclamations, merci de vous diriger vers la page "Contactez-nous".</h6>
+            <h6>Dino Facts™ - Website by an IIM student</h6>
+            <h4 id="darkMode">Passer en dark mode</h4>
+        </div>
+    </footer>
+    <script src="Javascript/inscri.js"></script>
+</body>
+</html>
